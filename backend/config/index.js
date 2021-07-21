@@ -1,5 +1,6 @@
 // We reuse this import in order to have access to the `body` property in requests
 const express = require("express");
+const cors = require("cors");
 
 // ℹ️ Responsible for the messages you see in the terminal as requests are coming in
 // https://www.npmjs.com/package/morgan
@@ -36,4 +37,11 @@ module.exports = (app) => {
 
   // Handles access to the favicon
   app.use(favicon(path.join(__dirname, "..", "public", "images", "favicon.ico")));
+
+  app.use (
+    cors({
+    credentials: true,
+    origin: [process.env.CLIENT_HOSTNAME],
+  })
+  );
 };
