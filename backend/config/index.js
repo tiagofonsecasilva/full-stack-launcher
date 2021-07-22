@@ -41,7 +41,7 @@ module.exports = (app) => {
   app.use (
     cors({
     credentials: true,
-    origin: [process.env.CLIENT_HOSTNAME],
+    origin: 'http://localhost:3000',
   })
   );
 };
