@@ -1,6 +1,6 @@
 # full-stack-launcher
 
-This is a ready for developer nodejs launcher with backend and frontend react.
+This is a ready for developing nodejs launcher with backend {{express}} and frontend {{react}}.
 It is based on Ironlauncher https://www.npmjs.com/package/ironlauncher and https://reactjs.org/docs/create-a-new-react-app.html.
 
 How to Install
