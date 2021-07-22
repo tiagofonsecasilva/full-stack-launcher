@@ -1,11 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
 import UserList from './components/UserList'
+import { Route, Switch } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-          <UserList />
+      {/* This is an example to show users list */}
+      <Switch>
+        <Route exact path="/users/" component={UserList} />
+      </Switch>
+      {/* This is an example to show users list */}
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
