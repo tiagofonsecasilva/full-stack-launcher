@@ -13,7 +13,7 @@ How to Install
 
 4 - You can test on your browser both http://localhost:5000/ for the backend and http://localhost:3000 for the frontend.
 
-4 (optional) - If you want to check if the backend is communicating with the database and frontend just run "node backend/seeds/user.seed.js" and you will see random users has been filled on your frontpage.
+4 (optional) - If you want to check if the backend is communicating with the database and frontend just run "node backend/seeds/user.seed.js" and you will see random users has been filled on your http://localhost:3000/users route.
 
 Enjoy and don't be shy to raise an issue
 
